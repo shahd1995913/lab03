@@ -1,48 +1,37 @@
 <!DOCTYPE html>
 <html>
-
 <body>
-<div
-	<h2> Programimg language</h2>
-	<p id="demo">Using of programimg language can buld a websit.</p>
-	<button type="button" onclick='document.getElementById("demo").innerHTML = "Example on programming language such as C,C#,Python , Java, R and other!"'>Click Me!</button>
-</div>
-<div>
-  
-<h2> Array Sort</h2>
 
-<p>The sort  alphabetically the name of program used to bulid app.</p>
+<img id="image" src="smiley.gif" width="160" height="120">
 
-<button onclick="myFunction()">Try it</button>
+<script>
+document.getElementById("image").src = "https://www.niehs.nih.gov/health/assets/images/safe_water.jpg";
+</script>
+
+<p>Almost two billion people around the world rely on health care facilities that do not have basic water services. As we know, handwashing with soap has been proven to be one of the best preventative life-saving measures available but the reality is that globally, one out of six (16%) health care facilities has no functional hand hygiene facilities available at either points of care or toilets2!
+</p>
+
+
+
+<h2>JavaScript  Date()</h2>
+
+<p> the current date and time:</p>
 
 <p id="demo"></p>
 
 <script>
-var p = ["C#", "Java", "Python", "R","C++","CSS","HTML","Javascript","Orange"];
-document.getElementById("demo").innerHTML = p;
-
-function myFunction() {
-  p.sort();
-  document.getElementById("demo").innerHTML = p;
-}
-</script>
-</div>
-<div>
-
-<p>Click "Try it". Wait 1 seconds, and the page will alert "Welecome".</p>
-
-<button onclick="setTimeout(myFunction, 500);">Alart Massage</button>
-
-<script>
-function myFunction() {
-  alert('Wellcome to shahd page');
-}
+var d = new Date();
+document.getElementById("demo").innerHTML = d;
 </script>
 
 
+<h2>The .print Method</h2>
+
+<p>Click the button to print the current page.</p>
+
+<button onclick="window.print()">Print this page</button>
 
 
-</div>
 
 
 
