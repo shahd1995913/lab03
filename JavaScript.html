@@ -3,11 +3,50 @@
 
 <body>
 
-	<h2>What Can Programimg langue Do?</h2>
+	<h2>What Can Programimg language Do?</h2>
 
-	<p id="demo">Using of programimg lnguge can buld a websit.</p>
+	<p id="demo">Using of programimg language can buld a websit.</p>
 
-	<button type="button" onclick='document.getElementById("demo").innerHTML = "Examle on programming langue such as C,C#,Python , Java, R and other!"'>Click Me!</button>
+	<button type="button" onclick='document.getElementById("demo").innerHTML = "Example on programming language such as C,C#,Python , Java, R and other!"'>Click Me!</button>
+
+<div>
+  
+<h2> Array Sort</h2>
+
+<p>The sort  alphabetically the name of program used to bulid app.</p>
+
+<button onclick="myFunction()">Try it</button>
+
+<p id="demo"></p>
+
+<script>
+var p = ["C#", "Java", "Python", "R","C++","CSS","HTML","Javascript","Orange"];
+document.getElementById("demo").innerHTML = p;
+
+function myFunction() {
+  p.sort();
+  document.getElementById("demo").innerHTML = p;
+}
+</script>
+</div>
+<div>
+
+<p>Click "Try it". Wait 1 seconds, and the page will alert "Welecome".</p>
+
+<button onclick="setTimeout(myFunction, 500);">Alart Massage</button>
+
+<script>
+function myFunction() {
+  alert('Wellcome to shahd page');
+}
+</script>
+
+
+
+
+</div>
+
+
 
 </body>
 </html>
