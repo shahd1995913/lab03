@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 alert ( "welecom to my page , please inter the programimg languege that prefer" )
 
 var answer = prompt ("What the type of programming languge that prefer")
@@ -26,5 +27,7 @@ for(i=0;i<val;i++)
 {
   document.write("<img src='https://www.simplilearn.com/ice9/free_resources_article_thumb/Best-Programming-Languages-to-Start-Learning-Today.jpg' ,width='200px', hight='300';>")
 }
+
+
 
 
