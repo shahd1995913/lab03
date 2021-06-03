@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+
 alert ( "welecom to my page , please inter the programimg languege that prefer" )
 
 var answer = prompt ("What the type of programming languge that prefer")
@@ -23,11 +23,10 @@ while (input != 5)
 input =prompt('sorry we do not have this number try again pleae!!')
 }
 var val =prompt('how many image for programimg Languages you want to see')
+
 for(i=0;i<val;i++)
 {
   document.write("<img src='https://www.simplilearn.com/ice9/free_resources_article_thumb/Best-Programming-Languages-to-Start-Learning-Today.jpg' ,width='200px', hight='300';>")
 }
-
-
 
 
