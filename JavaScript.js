@@ -15,7 +15,7 @@ else if(answer == "R"){alert ("greet this is the best program that support the m
 else if(answer == "javascript"){alert ("ok.")}
 
 else if(answer == "orange"){alert ("ok.")}
-
+else if(answer == " " || answer == null){alert ("Please you must enter name of programming languge.")}
 var input =prompt('how many course intrested to learn , please insert number')
 
 while (input != 5)
